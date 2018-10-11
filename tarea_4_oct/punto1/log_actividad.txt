@@ -1,0 +1,137 @@
+{"log":"\u001b[38;5;6m[/data]$\u001b(B\u001b[m ./scr\u0007ipt_create_tables \r\n","stream":"stdout","time":"2018-10-02T13:38:32.500134885Z"}
+{"log":"getting stats from variable 1\r\n","stream":"stdout","time":"2018-10-02T13:38:32.606940554Z"}
+{"log":"getting stats from variable 2\r\n","stream":"stdout","time":"2018-10-02T13:38:36.451961909Z"}
+{"log":"getting stats from variable 3\r\n","stream":"stdout","time":"2018-10-02T13:38:37.591097187Z"}
+{"log":"getting stats from variable 4\r\n","stream":"stdout","time":"2018-10-02T13:38:38.737636429Z"}
+{"log":"getting stats from variable 5\r\n","stream":"stdout","time":"2018-10-02T13:38:39.872079418Z"}
+{"log":"getting stats from variable 6\r\n","stream":"stdout","time":"2018-10-02T13:38:41.035912198Z"}
+{"log":"getting stats from variable 7\r\n","stream":"stdout","time":"2018-10-02T13:38:42.195753861Z"}
+{"log":"getting stats from variable 8\r\n","stream":"stdout","time":"2018-10-02T13:38:43.362014135Z"}
+{"log":"getting stats from variable 9\r\n","stream":"stdout","time":"2018-10-02T13:38:44.503283997Z"}
+{"log":"getting stats from variable 10\r\n","stream":"stdout","time":"2018-10-02T13:38:45.744482505Z"}
+{"log":"getting stats from variable 11\r\n","stream":"stdout","time":"2018-10-02T13:38:46.935483957Z"}
+{"log":"getting stats from variable 12\r\n","stream":"stdout","time":"2018-10-02T13:38:48.420436823Z"}
+{"log":"getting stats from variable 13\r\n","stream":"stdout","time":"2018-10-02T13:38:49.82288501Z"}
+{"log":"getting stats from variable 14\r\n","stream":"stdout","time":"2018-10-02T13:38:51.026769892Z"}
+{"log":"getting stats from variable 15\r\n","stream":"stdout","time":"2018-10-02T13:38:52.196976008Z"}
+{"log":"getting stats from variable 16\r\n","stream":"stdout","time":"2018-10-02T13:38:53.362834244Z"}
+{"log":"getting stats from variable 17\r\n","stream":"stdout","time":"2018-10-02T13:38:54.517335529Z"}
+{"log":"getting stats from variable 18\r\n","stream":"stdout","time":"2018-10-02T13:38:55.680724368Z"}
+{"log":"getting stats from variable 19\r\n","stream":"stdout","time":"2018-10-02T13:38:56.859417061Z"}
+{"log":"getting stats from variable 20\r\n","stream":"stdout","time":"2018-10-02T13:38:58.024972932Z"}
+{"log":"getting stats from variable 21\r\n","stream":"stdout","time":"2018-10-02T13:38:59.18166444Z"}
+{"log":"getting stats from variable 22\r\n","stream":"stdout","time":"2018-10-02T13:39:00.319009412Z"}
+{"log":"getting stats from variable 23\r\n","stream":"stdout","time":"2018-10-02T13:39:01.472845134Z"}
+{"log":"getting stats from variable 24\r\n","stream":"stdout","time":"2018-10-02T13:39:02.628628984Z"}
+{"log":"getting stats from variable 25\r\n","stream":"stdout","time":"2018-10-02T13:39:03.803370004Z"}
+{"log":"getting stats from variable 26\r\n","stream":"stdout","time":"2018-10-02T13:39:04.987843107Z"}
+{"log":"getting stats from variable 27\r\n","stream":"stdout","time":"2018-10-02T13:39:06.143052811Z"}
+{"log":"getting stats from variable 28\r\n","stream":"stdout","time":"2018-10-02T13:39:07.282676253Z"}
+{"log":"getting stats from variable 29\r\n","stream":"stdout","time":"2018-10-02T13:39:08.444130243Z"}
+{"log":"getting stats from variable 30\r\n","stream":"stdout","time":"2018-10-02T13:39:09.589956109Z"}
+{"log":"getting stats from variable 31\r\n","stream":"stdout","time":"2018-10-02T13:39:10.757376381Z"}
+{"log":"getting stats from variable 32\r\n","stream":"stdout","time":"2018-10-02T13:39:12.046867258Z"}
+{"log":"getting stats from variable 33\r\n","stream":"stdout","time":"2018-10-02T13:39:13.19405587Z"}
+{"log":"getting stats from variable 34\r\n","stream":"stdout","time":"2018-10-02T13:39:14.349442857Z"}
+{"log":"getting stats from variable 35\r\n","stream":"stdout","time":"2018-10-02T13:39:15.510494769Z"}
+{"log":"getting stats from variable 36\r\n","stream":"stdout","time":"2018-10-02T13:39:16.67692556Z"}
+{"log":"getting stats from variable 37\r\n","stream":"stdout","time":"2018-10-02T13:39:17.831066112Z"}
+{"log":"getting stats from variable 38\r\n","stream":"stdout","time":"2018-10-02T13:39:18.979972916Z"}
+{"log":"getting stats from variable 39\r\n","stream":"stdout","time":"2018-10-02T13:39:20.118345482Z"}
+{"log":"getting stats from variable 40\r\n","stream":"stdout","time":"2018-10-02T13:39:21.262669605Z"}
+{"log":"getting stats from variable 41\r\n","stream":"stdout","time":"2018-10-02T13:39:22.406567762Z"}
+{"log":"getting stats from variable 42\r\n","stream":"stdout","time":"2018-10-02T13:39:23.569301926Z"}
+{"log":"getting stats from variable 43\r\n","stream":"stdout","time":"2018-10-02T13:39:24.722915245Z"}
+{"log":"getting stats from variable 44\r\n","stream":"stdout","time":"2018-10-02T13:39:25.878230197Z"}
+{"log":"getting stats from variable 45\r\n","stream":"stdout","time":"2018-10-02T13:39:27.043649029Z"}
+{"log":"getting stats from variable 46\r\n","stream":"stdout","time":"2018-10-02T13:39:28.210102116Z"}
+{"log":"getting stats from variable 47\r\n","stream":"stdout","time":"2018-10-02T13:39:29.399705569Z"}
+{"log":"getting stats from variable 48\r\n","stream":"stdout","time":"2018-10-02T13:39:30.583063266Z"}
+{"log":"getting stats from variable 49\r\n","stream":"stdout","time":"2018-10-02T13:39:31.799065644Z"}
+{"log":"getting stats from variable 50\r\n","stream":"stdout","time":"2018-10-02T13:39:32.960054162Z"}
+{"log":"getting stats from variable 51\r\n","stream":"stdout","time":"2018-10-02T13:39:34.124191387Z"}
+{"log":"getting stats from variable 52\r\n","stream":"stdout","time":"2018-10-02T13:39:35.277190055Z"}
+{"log":"getting stats from variable 53\r\n","stream":"stdout","time":"2018-10-02T13:39:36.428547041Z"}
+{"log":"getting stats from variable 54\r\n","stream":"stdout","time":"2018-10-02T13:39:37.619800004Z"}
+{"log":"getting stats from variable 55\r\n","stream":"stdout","time":"2018-10-02T13:39:38.771939068Z"}
+{"log":"getting stats from variable 56\r\n","stream":"stdout","time":"2018-10-02T13:39:40.012722595Z"}
+{"log":"getting stats from variable 57\r\n","stream":"stdout","time":"2018-10-02T13:39:41.190155852Z"}
+{"log":"getting stats from variable 58\r\n","stream":"stdout","time":"2018-10-02T13:39:42.489997117Z"}
+{"log":"getting stats from variable 59\r\n","stream":"stdout","time":"2018-10-02T13:39:43.828457948Z"}
+{"log":"getting stats from variable 60\r\n","stream":"stdout","time":"2018-10-02T13:39:45.102506184Z"}
+{"log":"getting stats from variable 61\r\n","stream":"stdout","time":"2018-10-02T13:39:46.264414385Z"}
+{"log":"getting stats from variable 62\r\n","stream":"stdout","time":"2018-10-02T13:39:47.42872856Z"}
+{"log":"getting stats from variable 63\r\n","stream":"stdout","time":"2018-10-02T13:39:48.46370215Z"}
+{"log":"getting stats from variable 64\r\n","stream":"stdout","time":"2018-10-02T13:39:49.625538377Z"}
+{"log":"getting stats from variable 65\r\n","stream":"stdout","time":"2018-10-02T13:39:50.782128722Z"}
+{"log":"getting stats from variable 66\r\n","stream":"stdout","time":"2018-10-02T13:39:51.945860824Z"}
+{"log":"getting stats from variable 67\r\n","stream":"stdout","time":"2018-10-02T13:39:53.110036169Z"}
+{"log":"getting stats from variable 68\r\n","stream":"stdout","time":"2018-10-02T13:39:54.152898446Z"}
+{"log":"getting stats from variable 69\r\n","stream":"stdout","time":"2018-10-02T13:39:55.323792848Z"}
+{"log":"getting stats from variable 70\r\n","stream":"stdout","time":"2018-10-02T13:39:56.486885296Z"}
+{"log":"getting stats from variable 71\r\n","stream":"stdout","time":"2018-10-02T13:39:57.650793599Z"}
+{"log":"getting stats from variable 72\r\n","stream":"stdout","time":"2018-10-02T13:39:58.813722522Z"}
+{"log":"getting stats from variable 73\r\n","stream":"stdout","time":"2018-10-02T13:39:59.977630647Z"}
+{"log":"getting stats from variable 74\r\n","stream":"stdout","time":"2018-10-02T13:40:01.16755625Z"}
+{"log":"getting stats from variable 75\r\n","stream":"stdout","time":"2018-10-02T13:40:02.337351268Z"}
+{"log":"getting stats from variable 76\r\n","stream":"stdout","time":"2018-10-02T13:40:03.478563417Z"}
+{"log":"getting stats from variable 77\r\n","stream":"stdout","time":"2018-10-02T13:40:04.629732124Z"}
+{"log":"getting stats from variable 78\r\n","stream":"stdout","time":"2018-10-02T13:40:05.66950412Z"}
+{"log":"getting stats from variable 79\r\n","stream":"stdout","time":"2018-10-02T13:40:06.706457635Z"}
+{"log":"getting stats from variable 80\r\n","stream":"stdout","time":"2018-10-02T13:40:07.87912801Z"}
+{"log":"getting stats from variable 81\r\n","stream":"stdout","time":"2018-10-02T13:40:09.040409462Z"}
+{"log":"getting stats from variable 82\r\n","stream":"stdout","time":"2018-10-02T13:40:10.066841742Z"}
+{"log":"getting stats from variable 83\r\n","stream":"stdout","time":"2018-10-02T13:40:11.214761704Z"}
+{"log":"getting stats from variable 84\r\n","stream":"stdout","time":"2018-10-02T13:40:12.373843243Z"}
+{"log":"getting stats from variable 85\r\n","stream":"stdout","time":"2018-10-02T13:40:13.53376276Z"}
+{"log":"getting stats from variable 86\r\n","stream":"stdout","time":"2018-10-02T13:40:14.690344242Z"}
+{"log":"getting stats from variable 87\r\n","stream":"stdout","time":"2018-10-02T13:40:15.720574582Z"}
+{"log":"new-line character seen in unquoted field - do you need to open the file in universal-newline mode?\r\n","stream":"stdout","time":"2018-10-02T13:40:17.184494347Z"}
+{"log":"getting stats from variable 88\r\n","stream":"stdout","time":"2018-10-02T13:40:17.205406668Z"}
+{"log":"new-line character seen in unquoted field - do you need to open the file in universal-newline mode?\r\n","stream":"stdout","time":"2018-10-02T13:40:17.498178704Z"}
+{"log":"getting stats from variable 89\r\n","stream":"stdout","time":"2018-10-02T13:40:17.51911511Z"}
+{"log":"new-line character seen in unquoted field - do you need to open the file in universal-newline mode?\r\n","stream":"stdout","time":"2018-10-02T13:40:18.483995873Z"}
+{"log":"getting stats from variable 90\r\n","stream":"stdout","time":"2018-10-02T13:40:18.505985417Z"}
+{"log":"new-line character seen in unquoted field - do you need to open the file in universal-newline mode?\r\n","stream":"stdout","time":"2018-10-02T13:40:19.413059999Z"}
+{"log":"getting stats from variable 91\r\n","stream":"stdout","time":"2018-10-02T13:40:19.433482274Z"}
+{"log":"new-line character seen in unquoted field - do you need to open the file in universal-newline mode?\r\n","stream":"stdout","time":"2018-10-02T13:40:20.32495597Z"}
+{"log":"\u001b[38;5;6m[/data]$\u001b(B\u001b[m \u0007;2D\u0008\u001b[K\u0008\u001b[K\u0008\u001b[K\u0007ls\r\n","stream":"stdout","time":"2018-10-02T13:47:18.427364677Z"}
+{"log":" README.md\u0009\u0009    stats_34.csv   stats_7.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.519737777Z"}
+{"log":" TicDataDescr.txt\u0009    stats_35.csv   stats_70.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.519822528Z"}
+{"log":" adults\u0009\u0009\u0009    stats_36.csv   stats_71.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.519852109Z"}
+{"log":" apt_1.5_amd64.deb\u0009    stats_37.csv   stats_72.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.519876006Z"}
+{"log":" dictionary.txt\u0009\u0009    stats_38.csv   stats_73.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.51989796Z"}
+{"log":" script_create_tables\u0009    stats_39.csv   stats_74.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.519921901Z"}
+{"log":" script_sust_categs.save    stats_4.csv    stats_75.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.519945196Z"}
+{"log":" script_sust_categs_test    stats_40.csv   stats_76.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.519968913Z"}
+{"log":" script_sust_categs_train   stats_41.csv   stats_77.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.519991711Z"}
+{"log":" script_tablas\u0009\u0009    stats_42.csv   stats_78.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520014406Z"}
+{"log":" script_target_var\u0009    stats_43.csv   stats_79.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520038203Z"}
+{"log":" stats_...csv\u0009\u0009    stats_44.csv   stats_8.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.52013059Z"}
+{"log":" stats_1.csv\u0009\u0009    stats_45.csv   stats_80.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520159755Z"}
+{"log":" stats_10.csv\u0009\u0009    stats_46.csv   stats_81.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520183563Z"}
+{"log":" stats_11.csv\u0009\u0009    stats_47.csv   stats_82.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520247867Z"}
+{"log":" stats_12.csv\u0009\u0009    stats_48.csv   stats_83.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520272259Z"}
+{"log":" stats_13.csv\u0009\u0009    stats_49.csv   stats_84.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520291415Z"}
+{"log":" stats_14.csv\u0009\u0009    stats_5.csv    stats_85.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520312546Z"}
+{"log":" stats_15.csv\u0009\u0009    stats_50.csv   stats_86.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520351229Z"}
+{"log":" stats_16.csv\u0009\u0009    stats_51.csv   stats_87.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520374641Z"}
+{"log":" stats_17.csv\u0009\u0009    stats_52.csv   stats_88.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520395669Z"}
+{"log":" stats_18.csv\u0009\u0009    stats_53.csv   stats_89.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520417575Z"}
+{"log":" stats_19.csv\u0009\u0009    stats_54.csv   stats_9.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520438519Z"}
+{"log":" stats_2.csv\u0009\u0009    stats_55.csv   stats_90.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520460162Z"}
+{"log":" stats_20.csv\u0009\u0009    stats_56.csv   stats_91.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520480517Z"}
+{"log":" stats_21.csv\u0009\u0009    stats_57.csv   stats_col3.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520502517Z"}
+{"log":" stats_22.csv\u0009\u0009    stats_58.csv   tarea_5_script.save\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520524787Z"}
+{"log":" stats_23.csv\u0009\u0009    stats_59.csv   tarea_5_script.save.1\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520546735Z"}
+{"log":" stats_24.csv\u0009\u0009    stats_6.csv    targ_var.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520568163Z"}
+{"log":" stats_25.csv\u0009\u0009    stats_60.csv   tic.tar.gz\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520589185Z"}
+{"log":" stats_26.csv\u0009\u0009    stats_61.csv   ticdata2000.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520612305Z"}
+{"log":" stats_27.csv\u0009\u0009    stats_62.csv   ticdata2000.txt\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520639206Z"}
+{"log":" stats_28.csv\u0009\u0009    stats_63.csv   ticdata2000_headers6.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520658356Z"}
+{"log":" stats_29.csv\u0009\u0009    stats_64.csv   ticeval2000.txt\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520681481Z"}
+{"log":" stats_3.csv\u0009\u0009    stats_65.csv   ticeval2000_headers6.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520890031Z"}
+{"log":" stats_30.csv\u0009\u0009    stats_66.csv   tictgts2000.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520941473Z"}
+{"log":" stats_31.csv\u0009\u0009    stats_67.csv   tictgts2000.txt\r\n","stream":"stdout","time":"2018-10-02T13:47:18.52096671Z"}
+{"log":" stats_32.csv\u0009\u0009    stats_68.csv  '|'\r\n","stream":"stdout","time":"2018-10-02T13:47:18.520984669Z"}
+{"log":" stats_33.csv\u0009\u0009    stats_69.csv\r\n","stream":"stdout","time":"2018-10-02T13:47:18.521005977Z"}

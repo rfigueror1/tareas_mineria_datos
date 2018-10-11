@@ -1,0 +1,190 @@
+---
+title: "ticdata2000_tarea_mineria"
+author: "Ricardo Figueroa"
+date: "October 4, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(GGally)
+library(corrplot)
+library("car")
+library(tuple)
+library(gridExtra)
+library(RColorBrewer)
+```
+
+## Análisis de correlación de los datos
+
+Se hizo un análisis de las variables con su coeficiente de correlación de las variables de entrenamiento.
+
+```{r}
+training_data <- read.csv(file ="/home/ricardo/Documents/Maestria/mineria_datos/tareas/ticdata2000.csv", sep = '|')
+training_data <- as.data.frame(training_data)
+training_data[, 1] <- lapply(training_data[, 1], as.numeric)
+training_data[, 4:6] <- lapply(training_data[, 4:6], as.numeric)
+training_data$PWAPART <- unlist(lapply(training_data$PWAPART, as.numeric))
+class(training_data)
+glimpse(training_data)
+all_correlations <- GGally::ggcorr(training_data)
+head(all_correlations$data)
+GGally::ggcorr(training_data)
+# lista de todas las variables que tienen una correlacion mayor a 0.9
+lista_corr_pos = cbind(all_correlations$data$x[which(all_correlations$data$coefficient > 0.9)],all_correlations$data$y[which(all_correlations$data$coefficient > 0.9)])
+
+all_correlations_train <- all_correlations$data$coefficient
+
+#Las variables que tienen una correlacion mayor a 0.1 con la variable de respuesta
+coeficientes_lista_correlaciones_var_respuesta <- data.frame(all_correlations$data$y[which((all_correlations$data$x == 'CARAVAN') & (all_correlations$data$coefficient > 0.1))])
+nrow(coeficientes_lista_correlaciones_var_respuesta)
+coeficientes_lista_correlaciones_var_respuesta
+
+coeficientes_lista_correlaciones_var_respuesta_neg <- data.frame(all_correlations$data$y[which((all_correlations$data$x == 'CARAVAN') & (all_correlations$data$coefficient < -0.1))])
+nrow(coeficientes_lista_correlaciones_var_respuesta_neg)
+coeficientes_lista_correlaciones_var_respuesta_neg
+
+# tupla de variables con correlaciones mayor a 0.9
+# lista de todas las variables que tienen una correlacion menor a 0.9
+lista_corr_neg = cbind(all_correlations$data$x[which(all_correlations$data$coefficient < -0.9)],all_correlations$data$y[which(all_correlations$data$coefficient < -0.9)])
+# tupla de variables con correlaciones menor a -0.9
+lista_corr_pos
+lista_corr_neg
+```
+
+Se hizo un análisis de las variables con su coeficiente de correlación de las variables de prueba.
+
+```{r}
+test_data <- read.csv(file ="/home/ricardo/Documents/Maestria/mineria_datos/tareas/tictest2000.csv", sep = '|')
+test_data <- as.data.frame(test_data)
+test_data[, 1] <- lapply(test_data[, 1], as.numeric)
+test_data[, 4:6] <- lapply(test_data[, 4:6], as.numeric)
+test_data$PWAPART <- unlist(lapply(test_data$PWAPART, as.numeric))
+class(test_data)
+glimpse(test_data)
+all_correlations <- GGally::ggcorr(test_data)
+head(all_correlations$data)
+GGally::ggcorr(test_data)
+# lista de todas las variables que tienen una correlacion mayor a 0.9
+lista_corr_pos_test = cbind(all_correlations$data$x[which(all_correlations$data$coefficient > 0.9)],all_correlations$data$y[which(all_correlations$data$coefficient > 0.9)])
+
+all_correlations_test <- all_correlations$data$coefficient
+
+# tupla de variables con correlaciones mayor a 0.9
+# lista de todas las variables que tienen una correlacion menor a 0.9
+lista_corr_neg_test = cbind(all_correlations$data$x[which(all_correlations$data$coefficient < -0.9)],all_correlations$data$y[which(all_correlations$data$coefficient < -0.9)])
+# tupla de variables con correlaciones menor a -0.9
+lista_corr_pos_test
+lista_corr_neg_test
+```
+
+```{r}
+
+#Comparamos la lista de correlaciones entre el dataset de prueba y de entrenamiento
+
+nrow(training_data)
+nrow(test_data)
+
+diferencias_correlacion = all_correlations_test - all_correlations_test
+max(diferencias_correlacion)
+
+```
+
+### Analisis Multivariado de las variables con mayor correlacion y la variable de respuesta
+
+```{r}
+# Este modelo no es muy exitoso para intentar explicar la variable de respuesta
+lista_corr_pos
+coeficientes_lista_correlaciones_var_respuesta
+y <- training_data$CARAVAN
+x1 <- unlist(training_data$MKOOPKLA)
+x2 <- unlist(training_data$PPERSAUT)
+x3 <- unlist(training_data$PBRAND)
+x4 <- unlist(training_data$APERSAUT)
+df <- data.frame(x<-c(x1,x2,x3,x4),y)
+lm(formula = y ~ x1 + x2 + x3 + x4)
+
+h1 <- ggplot(training_data, aes(training_data$MKOOPKLA, training_data$CARAVAN)) + geom_point()
+h2 <- ggplot(training_data, aes(training_data$PPERSAUT, training_data$CARAVAN)) + geom_point()
+h3 <- ggplot(training_data, aes(training_data$PBRAND, training_data$CARAVAN)) + geom_point()
+h4 <- ggplot(training_data, aes(training_data$APERSAUT, training_data$CARAVAN)) + geom_point()
+grid.arrange (h1, h2, h3, h4, nrow=2)
+
+```
+
+Vamos a hacer un resumen de las variables del training set y el test set para compararlos
+
+```{r}
+
+stand_training_data <- as.data.frame(scale(training_data)) 
+stand_test_data <- as.data.frame(scale(test_data)) 
+
+
+t_test <- function(i){
+  result <- TRUE
+  result1 <- TRUE
+  var1 <- try(t.test(training_data[,i],test_data[,i]))
+  if(try(var1$p.value)<0.05){
+    result1 <- FALSE
+  }
+  result & result1
+}
+
+list_var <- list()
+for (i in 2:86)
+  {
+      var <- t_test(i)
+      list_var[i] <- var
+}
+
+list_var
+
+```
+Podemos concluir que tanto la muestra de prueba como de entrenamiento pertenecen a la misma poblacion.
+
+
+Volvemos a hacer el analisis de correlacion con otro metodo para verificar que estamos bien
+```{r}
+# Function to see 10 top most hishly correlated
+mosthighlycorrelated <- function(mydataframe,numtoreport)
+  {
+     # find the correlations
+     cormatrix <- cor(mydataframe)
+     # set the correlations on the diagonal or lower triangle to zero,
+     # so they will not be reported as the highest ones:
+     diag(cormatrix) <- 0
+     cormatrix[lower.tri(cormatrix)] <- 0
+     # flatten the matrix into a dataframe for easy sorting
+     fm <- as.data.frame(as.table(cormatrix))
+     # assign human-friendly names
+     names(fm) <- c("First.Variable", "Second.Variable","Correlation")
+     # sort and print the top n correlations
+     head(fm[order(abs(fm$Correlation),decreasing=T),],n=numtoreport)
+  }
+
+#lets standarize de variables (training)
+stand_training_data <- as.data.frame(scale(training_data))
+corr_train <- mosthighlycorrelated(stand_training_data, 10)
+
+```
+
+Ahora vamos a hacer un anlisis de PCA para ver cuales son las variables que explican la mayor parte de la variabilidad.
+
+```{r}
+training.pca <- prcomp(training_data[,1:85]) 
+summary(training.pca)
+sum(training.pca$sdev)
+screeplot(training.pca, type="lines")
+#una manera de decidir que componentes conservar es conservar los que tengan varianza mayor a 1
+list_components <- which((training.pca$sdev)^2>1)
+list_components
+
+training.pca$rotation[,1]
+
+plot(training.pca$x[,1],training.pca$x[,2])
+text(training.pca$x[,1],training.pca$x[,2], training_data$CARAVAN, cex=0.7, pos=4, col="red") # add labels
+
+```
+
+No parece haber una relacion entre los componentes principales y la variable objetivo.
